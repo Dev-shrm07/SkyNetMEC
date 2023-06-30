@@ -40,7 +40,7 @@ The MADDPG algorithm enables the UAV agents to learn optimal task offloading pol
    - A soft update of the target networks was performed to track the main networks.
    - Repeated Steps 3-6: The process of action selection, environment interaction, experience storage, and training was repeated for a specified number of iterations or until convergence.
 
-7. Evaluation and Deployment: The Model can be evaluated using the `test.py` file in the code folder.
+7. Evaluation and Deployment: The Model can be evaluated using the `test.py` file in the code folder by loading the weights of trained actor-critic networks.
 
 ## References
 
