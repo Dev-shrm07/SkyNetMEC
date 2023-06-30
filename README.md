@@ -1,7 +1,7 @@
 
-# UAV Task Offloading Model based on MADDPG Reinforcement Learning
+# UAV Mobile Edge Computing Model based on MADDPG Reinforcement Learning
 
-This repository contains an implementation of a UAV-based task offloading model using the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) reinforcement learning algorithm. The model is designed to optimize task execution by multiple UAVs in a custom environment consisting of multiple UE clusters and fog devices. In this model it is stimulated for 2 UAV devices with 2 UE clusters and 2 fog devices.
+This repository contains an implementation of a UAV-based MEC model using the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) reinforcement learning algorithm for task offloading and trajectory planning in the UAVs. The model is designed to optimize task execution by multiple UAVs in a custom environment consisting of multiple UE clusters and fog devices. In this model it is stimulated for 2 UAV devices with 2 UE clusters and 2 fog devices.
 
 ## Environment Description
 
