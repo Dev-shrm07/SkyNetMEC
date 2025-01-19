@@ -2,7 +2,7 @@
 # SkyNetMEC
 
 This repository contains an implementation of a UAV-based MEC model using the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) reinforcement learning algorithm for task offloading and trajectory planning in the UAVs. The model is designed to optimize task execution by multiple UAVs in a custom environment consisting of multiple UE clusters and fog devices. In this model it is stimulated for 2 UAV devices with 2 UE clusters and 2 fog devices.
-
+ 
 ## Environment Description
 
 The custom environment simulates a scenario where two UAVs interact with 2 UE clusters and 2 fog devices. The UAV devices receive task requests from the UE clusters. The UAVs make decisions on the fraction of the task to be executed locally and the fraction to be offloaded to the fog devices. Additionally, the model decides the movement distance and angle for the UAVs to improve coverage of the UE devices. The Reward for this model is the negative of the system cost which is the sum of total time, energy and reciprocal of throughput (as we have to maximize it) during the execution of all the tasks in a timestamp.
