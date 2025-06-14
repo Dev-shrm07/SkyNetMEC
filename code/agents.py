@@ -27,13 +27,13 @@ class Agent:
         self.update_network_parameters(tau=1)
 
     def choose_action(self, observation):
-        #using the actor network given state of the agent return the suitable action currently
-        state = tf.convert_to_tensor([observation], dtype=tf.float32)
-        actions = self.actor(state)
-        noise = tf.random.normal(shape=(self.n_actions,))
-        action = actions + noise
+        state = tf.convert_to_tensor([observation], dtype=tf.float32)  
+        actions = self.actor(state)[0] 
+        noise = tf.random.normal(shape=(self.n_actions,), stddev=0.1)
+        noisy_action = actions + noise
+        clipped_action = tf.clip_by_value(noisy_action, -1, 1)
+        return clipped_action.numpy()
 
-        return action.numpy()[0]
 
     def update_network_parameters(self, tau=None):
         if tau is None:
