@@ -50,3 +50,7 @@ The MADDPG algorithm enables the UAV agents to learn optimal task offloading pol
 Lowe, R., Wu, Y., Tamar, A., Harb, J., Abbeel, O. P., & Mordatch, I. (2017). Multi-agent actor-critic for mixed cooperative-competitive environments. In Advances in Neural Information Processing Systems (pp. 6382-6393).
 
 Z. Yu, Y. Gong, S. Gong, and Y. Guo, "Joint Task Offloading and Resource Allocation in UAV-Enabled Mobile Edge Computing," IEEE Transactions on Vehicular Technology, vol. 68, no. 4, pp. 3114-3127, April 2019.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
