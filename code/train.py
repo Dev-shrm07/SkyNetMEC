@@ -73,7 +73,7 @@ if __name__ == '__main__':
     avg = []
     
 
-    #standard implemntaion of MADDPG algorithim
+    #standard implemntaion of MADDPG algorithm
     for i in range(n_episodes):
         obs = env.reset()
         score = 0
